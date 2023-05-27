@@ -10,7 +10,9 @@
 body{
     background-image: url(./disenos/fondo.jpg);
     background-size: cover;
-    background-position: relative; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 h1 {
@@ -189,8 +191,17 @@ h1 {
         float: none;
         width: 100%;
     }
+    
     body {
         width: auto;
     }
     
+}
+@media only screen and (max-width: 767px) {
+
+    body {
+    
+    background-image: url(disenos/mayas.png);
+    
+    }
 }
